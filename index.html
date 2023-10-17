@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Рандомайзер групп</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Рандомайзер групп</h1>
+    </header>
+
+    <div class="container">
+        <h2>Введите имена:</h2>
+        <textarea id="nameInput" rows="5" placeholder="Введите имена, разделяя их переводом строки"></textarea>
+        <label for="groupCount">Количество групп:</label>
+        <input type="number" id="groupCount" min="1" value="1">
+        <button id="randomizeButton">Разделить на группы</button>
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
